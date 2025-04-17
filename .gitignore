@@ -1,0 +1,31 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore generated files
+.terraform/
+
+# Ignore log files and temporary files
+*.log
+*.backup
+*.tfvars
+
+# Ignore sensitive information
+*.pem
+*.key
+*.cer
+*.crt
+*.csr
+*.jks
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+node_modules

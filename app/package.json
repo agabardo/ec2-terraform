@@ -1,0 +1,17 @@
+{
+  "name": "nodejs_ec2_load_balancer",
+  "version": "0.0.1",
+  "description": "Minimal NodeJS behind load balancer",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress test"
+  },
+  "keywords": [
+    "Terraforming"
+  ],
+  "author": "agabardo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
